@@ -1,0 +1,22 @@
+{
+  "name": "npt",
+  "displayName": "Natural Parallel Test",
+  "version": "0.1.0",
+  "description": "Stress-test a plan against nature by shared mechanism, not resemblance. Decomposes a plan into ten mechanisms, searches seven levels of nature for systems solving the same problem under comparable constraints, refutes the weak analogies, and returns a scored verdict: Established, Partial, Novel but compatible, or Contrary to natural patterns.",
+  "author": {
+    "name": "Babak Bandpey",
+    "email": "bb@cocode.dk",
+    "url": "https://cocode.dk"
+  },
+  "homepage": "https://cocodedk.github.io/natural-parallel-test/",
+  "repository": "https://github.com/cocodedk/natural-parallel-test",
+  "license": "Apache-2.0",
+  "keywords": [
+    "planning",
+    "systems-thinking",
+    "resilience",
+    "architecture-review",
+    "biomimicry",
+    "decision-support"
+  ]
+}

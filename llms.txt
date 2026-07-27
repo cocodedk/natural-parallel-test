@@ -1,0 +1,30 @@
+# Natural Parallel Test
+
+> A Claude Code plugin that stress-tests plans against nature by shared mechanism rather than resemblance. It decomposes a plan into ten mechanisms, searches seven levels of nature for systems solving the same problem under comparable constraints, refutes weak analogies with a separate adversarial reviewer, scores twelve durability principles, and returns one of four classifications.
+
+The governing rule: do not ask whether the plan *looks like* something in nature. Ask whether nature has solved the same problem under comparable constraints, and what mechanism allowed that solution to endure.
+
+The framework measures structural durability under uncertainty. It does not measure whether a plan is worth doing, affordable, legal, ethical, or wanted — and "natural" is never an argument for desirability, since nature also sustains parasitism, cancer, and mass extinction.
+
+Install with `/plugin marketplace add cocodedk/natural-parallel-test` then `/plugin install npt@natural-parallel-test`. Commands are `/npt:test`, `/npt:worksheet`, `/npt:score`, `/npt:challenge`, and `/npt:analogues`.
+
+## Method
+
+- [SKILL.md](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/SKILL.md): the eight-step procedure, the candidate schema, the twelve scored principles, and the four classifications
+- [Step 1 — problem statement](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/01-problem-statement.md): restating a plan as a problem so the proposed solution stops controlling the search
+- [Step 2 — mechanisms](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/02-mechanisms.md): the ten mechanisms, their probes, and the absent-versus-not-applicable distinction
+- [Step 4 — validity tests](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/04-validity-tests.md): same problem, similar constraints, comparable mechanism, relevant scale — with worked failures
+- [Steps 7 and 8 — scoring](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/05-scoring.md): per-principle 0/1/2 anchors, classification bands, and the five overrides that beat the score
+- [Step 6 — limits and fallacies](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/06-limits-and-fallacies.md): where analogies break, the naturalistic fallacy, and rationalizations to resist
+
+## Reference
+
+- [Analogue library](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/03-analogue-library.md): catalogued natural systems across physical, cellular, organism, social-species, ecosystem, evolutionary, and cosmic levels — each with its mechanism, failure mode, transferable principle, and the point where it stops being valid
+- [Report template](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/07-report-template.md): the fixed output shape, so two assessments of the same plan are comparable
+- [Worked examples](https://github.com/cocodedk/natural-parallel-test/blob/main/plugins/npt/skills/natural-parallel-test/references/08-worked-examples.md): three full runs — an organisational plan, a software platform, and a policy programme — landing on three different classifications
+
+## Optional
+
+- [README](https://github.com/cocodedk/natural-parallel-test/blob/main/README.md): installation, commands, and an overview
+- [CONTRIBUTING](https://github.com/cocodedk/natural-parallel-test/blob/main/CONTRIBUTING.md): the editorial rules new library entries must satisfy
+- [Website](https://cocodedk.github.io/natural-parallel-test/): English and Persian

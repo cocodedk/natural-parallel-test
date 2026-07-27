@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "natural-parallel-test",
+  "description": "Stress-test plans against nature by shared mechanism rather than resemblance",
+  "owner": {
+    "name": "Babak Bandpey",
+    "email": "bb@cocode.dk"
+  },
+  "plugins": [
+    {
+      "name": "npt",
+      "description": "The Natural Parallel Test. Decomposes a plan into ten mechanisms, searches seven levels of nature for systems solving the same problem under comparable constraints, refutes the weak analogies with an adversarial reviewer, and returns a scored verdict: Established, Partial, Novel but compatible, or Contrary to natural patterns.",
+      "author": {
+        "name": "Babak Bandpey",
+        "email": "bb@cocode.dk"
+      },
+      "category": "productivity",
+      "version": "0.1.0",
+      "source": "./plugins/npt"
+    }
+  ]
+}

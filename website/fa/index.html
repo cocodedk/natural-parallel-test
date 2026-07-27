@@ -1,0 +1,478 @@
+<!--
+  ============================================================================
+  کلیدواژه‌ها و نیت جست‌وجو — fa/index.html (فارسی)
+  KEYWORDS & SEARCH INTENT — fa/index.html (Persian)
+  ----------------------------------------------------------------------------
+  کلیدواژهٔ اصلی:      آزمون موازی طبیعی
+  کلیدواژه‌های فرعی:   افزونهٔ Claude Code، سنجش طرح، تفکر سیستمی،
+                        دوام ساختاری، بازبینی معماری، تاب‌آوری،
+                        قیاس با طبیعت، الگوبرداری زیستی، ممیزی قیاس
+  عبارت‌های بلند:      چطور یک طرح را با سازوکار طبیعت بسنجیم،
+                        چرا قیاس گرگ آلفا نادرست است،
+                        کارنامهٔ دوازده اصل دوام،
+                        مغایر با الگوهای طبیعی
+  نیت جست‌وجو:        اطلاعاتی و تراکنشی. مهندس ارشد، معمار نرم‌افزار،
+                        راهبردنویس یا سیاست‌گذار می‌خواهد بداند این چارچوب
+                        چه چیزی را وارسی می‌کند و چقدر سخت‌گیر است، بعد
+                        افزونه را نصب می‌کند.
+  تبدیل اصلی:          بلوک دوخطی نصب (#install)
+  نسخه‌های دیگر:       fa (همین صفحه) · en (/) · x-default (/)
+  ============================================================================
+-->
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>آزمون موازی طبیعی: سنجش ساختاری طرح‌ها با سازوکار طبیعت</title>
+<meta name="description" content="افزونه‌ای برای Claude Code که طرح را با سازوکار مشترک با طبیعت می‌سنجد، نه با شباهت ظاهری: ده سازوکار، هفت سطح، دوازده اصل امتیازی و چهار حکم روشن.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="بابک بندپی">
+<link rel="canonical" href="https://cocodedk.github.io/natural-parallel-test/fa/">
+
+<link rel="alternate" hreflang="en" href="https://cocodedk.github.io/natural-parallel-test/">
+<link rel="alternate" hreflang="fa" href="https://cocodedk.github.io/natural-parallel-test/fa/">
+<link rel="alternate" hreflang="x-default" href="https://cocodedk.github.io/natural-parallel-test/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="آزمون موازی طبیعی">
+<meta property="og:title" content="آزمون موازی طبیعی: سنجش ساختاری طرح‌ها با سازوکار طبیعت">
+<meta property="og:description" content="افزونه‌ای برای Claude Code که طرح را با سازوکار مشترک با طبیعت می‌سنجد، نه با شباهت ظاهری: ده سازوکار، هفت سطح، دوازده اصل امتیازی و چهار حکم روشن.">
+<meta property="og:url" content="https://cocodedk.github.io/natural-parallel-test/fa/">
+<meta property="og:image" content="https://cocodedk.github.io/natural-parallel-test/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="برگهٔ داوری با عنوان «گرگ آلفا» که مهر بنفش «رد شد» خورده است، کنار قاعدهٔ اصلی آزمون موازی طبیعی.">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:locale:alternate" content="en_US">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="آزمون موازی طبیعی: سنجش ساختاری طرح‌ها با سازوکار طبیعت">
+<meta name="twitter:description" content="افزونه‌ای برای Claude Code که طرح را با سازوکار مشترک با طبیعت می‌سنجد، نه با شباهت ظاهری: ده سازوکار، هفت سطح، دوازده اصل امتیازی و چهار حکم روشن.">
+<meta name="twitter:image" content="https://cocodedk.github.io/natural-parallel-test/og.png">
+<meta name="twitter:image:alt" content="برگهٔ داوری با عنوان «گرگ آلفا» که مهر بنفش «رد شد» خورده است، کنار قاعدهٔ اصلی آزمون موازی طبیعی.">
+
+<link rel="icon" href="../favicon.svg" type="image/svg+xml">
+<link rel="mask-icon" href="../favicon.svg" color="#5b3a8e">
+<meta name="theme-color" content="#dedcd4">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&amp;family=Vazirmatn:wght@300;400;500;700&amp;display=swap">
+<link rel="stylesheet" href="../styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "آزمون موازی طبیعی",
+  "description": "افزونه‌ای برای Claude Code که یک طرح را با سازوکار مشترک با طبیعت می‌سنجد، نه با شباهت ظاهری. طرح را به ده سازوکار می‌شکند، هفت سطح طبیعت را دنبال سامانه‌هایی می‌گردد که همان مسئله را زیر قیدهای قابل‌مقایسه حل کرده‌اند، هر نامزد را به یک ممیز خصمانه می‌سپارد، دوازده اصل دوام را از ۲۴ امتیاز می‌دهد و یکی از چهار حکم را برمی‌گرداند.",
+  "url": "https://cocodedk.github.io/natural-parallel-test/fa/",
+  "downloadUrl": "https://github.com/cocodedk/natural-parallel-test",
+  "codeRepository": "https://github.com/cocodedk/natural-parallel-test",
+  "applicationCategory": "DeveloperApplication",
+  "operatingSystem": "Linux, macOS, Windows",
+  "softwareVersion": "0.1.0",
+  "inLanguage": "fa",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "بابک بندپی",
+    "url": "https://cocode.dk",
+    "sameAs": [
+      "https://linkedin.com/in/babakbandpey",
+      "https://github.com/cocodedk"
+    ]
+  }
+}
+</script>
+</head>
+<body>
+
+<a class="skip" href="#main">پرش به محتوا</a>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="#top">
+      <svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <defs><clipPath id="bm"><rect width="32" height="32" rx="4.5"/></clipPath></defs>
+        <g clip-path="url(#bm)">
+          <rect width="32" height="32" fill="#16181a"/>
+          <rect x="6" y="3" width="20" height="26" fill="#e3e1d9"/>
+          <rect x="9" y="7" width="14" height="2.4" fill="#16181a"/>
+          <rect x="9" y="12" width="9" height="2.4" fill="#16181a" opacity=".45"/>
+          <rect x="9" y="17" width="12" height="2.4" fill="#16181a" opacity=".45"/>
+          <rect x="-4" y="18.5" width="40" height="5.6" fill="#5b3a8e" transform="rotate(-22 16 16)"/>
+        </g>
+      </svg>
+      آزمون موازی طبیعی
+    </a>
+
+    <a href="../" class="lang-switch" lang="en" dir="ltr" hreflang="en">English</a>
+
+    <nav class="nav" aria-label="بخش‌های این صفحه">
+      <ul>
+        <li><a href="#method">روش</a></li>
+        <li><a href="#levels">جست‌وجو</a></li>
+        <li><a href="#score">امتیاز</a></li>
+        <li><a href="#commands">دستورها</a></li>
+        <li><a href="#install">نصب</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+
+    <section class="hero" id="top">
+      <p class="eyebrow">افزونهٔ Claude Code · نسخهٔ ۰٫۱٫۰</p>
+      <h1>آزمون موازی طبیعی</h1>
+      <p class="lede">یک شرکت جنگل نیست. یک سکوی نرم‌افزاری دستگاه عصبی نیست. با این حال هر
+        دو به همان مسئله‌ها برمی‌خورند: منابع کم، تأخیر، عدم قطعیت، شکست، رشد و بازیابی.
+        همین مسئله‌های مشترک تنها مبنای موجه برای مقایسه‌اند، و این افزونه مقایسه را
+        آزمون‌پذیر می‌کند.</p>
+
+      <blockquote class="rule-quote">
+        <p>نپرسید طرح <em>شبیه</em> چه چیزی در طبیعت است. بپرسید آیا طبیعت
+          <strong>همان مسئله را زیر قیدهای قابل‌مقایسه</strong> حل کرده است، و کدام سازوکار
+          باعث شده آن راه‌حل دوام بیاورد.</p>
+        <cite>قاعدهٔ اصلی</cite>
+      </blockquote>
+
+      <div class="actions">
+        <a class="btn btn--solid" href="#install">نصب افزونه</a>
+        <a class="btn btn--ghost" href="https://github.com/cocodedk/natural-parallel-test" target="_blank" rel="noreferrer">کد روی گیت‌هاب</a>
+      </div>
+    </section>
+
+    <section class="band" id="refuted" aria-labelledby="refuted-h">
+      <p class="band__code">شواهد</p>
+      <div class="band__body">
+        <h2 id="refuted-h">قیاس‌هایی که رد می‌شوند نیمی از خروجی‌اند</h2>
+        <p>مدلی که یک قیاس را پیدا می‌کند برای داوری دربارهٔ آن مناسب نیست؛ کارش پیدا کردن
+          شباهت است. برای همین نامزدها به عاملی جدا سپرده می‌شوند،
+          <code>analogy-auditor</code>، که روی مدلی دیگر اجرا می‌شود و حکم پیش‌فرضش
+          <code>refuted</code> است. اول زیست‌شناسی را وارسی می‌کند و بعد منطق را، چون
+          قیاس‌های جذاب با جذابیتشان می‌چرخند نه با شواهدشان. این سه هنوز در ارائه‌های
+          راهبردی دیده می‌شوند.</p>
+
+        <ul class="slips">
+          <li class="slip">
+            <p class="slip__det">داوری · analogy-auditor</p>
+            <p class="slip__name">گرگ آلفا</p>
+            <p class="slip__mark">رد شد</p>
+            <p class="slip__why">از گرگ‌های اسیر و غیرخویشاوند گرفته شده است. گله‌های وحشی
+              خانواده‌اند، و پژوهشگری که این واژه را رایج کرد سال‌ها کوشید پسش بگیرد.</p>
+          </li>
+          <li class="slip">
+            <p class="slip__det">داوری · analogy-auditor</p>
+            <p class="slip__name">ملکه‌ای که تصمیم می‌گیرد</p>
+            <p class="slip__mark">رد شد</p>
+            <p class="slip__why">او تخم می‌گذارد و چیزی را هدایت نمی‌کند. اینکه کندو کجا
+              برود با تبلیغ پیشاهنگ‌ها و شکل‌گرفتن حد نصاب روی یکی از گزینه‌ها تعیین
+              می‌شود.</p>
+          </li>
+          <li class="slip">
+            <p class="slip__det">داوری · analogy-auditor</p>
+            <p class="slip__name">درختانی که با قارچ‌ها غذا قسمت می‌کنند</p>
+            <p class="slip__mark slip__mark--contested">مورد مناقشه</p>
+            <p class="slip__why">دادوستد دوطرفه همراه با تنبیه شریک ضعیف پشتوانهٔ شواهد
+              دارد؛ روایت بخشندگی ندارد. مدخل E-23 همین هشدار را حمل می‌کند، نه آن روایت
+              را.</p>
+          </li>
+        </ul>
+
+        <p class="note" style="margin-block-start:1.2rem">نامزدهای ردشده در گزارش می‌مانند.
+          آن‌ها شاهدِ این‌اند که جست‌وجویی انجام شده است.</p>
+      </div>
+    </section>
+
+    <section class="band" id="method" aria-labelledby="method-h">
+      <p class="band__code">روش</p>
+      <div class="band__body">
+        <h2 id="method-h">یک اجرا چطور پیش می‌رود</h2>
+        <p>هشت گام. افزونه را به یک طرح، یک معماری، یک ساختار سازمانی یا یک سیاست بدهید تا
+          به ترتیب از این گام‌ها بگذرد.</p>
+        <ol class="steps">
+          <li><span class="num">۱</span><span>مسئله را بنویسید، نه راه‌حل را، تا پاسخ پیشنهادی جست‌وجو را هدایت نکند</span></li>
+          <li><span class="num">۲</span><span>طرح را به ده سازوکار بشکنید و هرکدام را «هست»، «نیست» یا «بی‌ربط» علامت بزنید</span></li>
+          <li><span class="num">۳</span><span>هفت سطح طبیعت را به‌موازات بگردید، برای هر سطح یک پیشاهنگ</span></li>
+          <li><span class="num">۴</span><span>هر نامزد را از چهار آزمون اعتبار بگذرانید</span></li>
+          <li><span class="num">۵</span><span>هر بازمانده را به قاعده‌ای در زبان خودِ طرح بازنویسی کنید</span></li>
+          <li><span class="num">۶</span><span>بگویید طبیعت چه چیزی را تحمل می‌کند که این طرح نمی‌تواند</span></li>
+          <li><span class="num">۷</span><span>دوازده اصل دوام را با استناد امتیاز بدهید</span></li>
+          <li><span class="num">۸</span><span>رده‌بندی کنید و فهرست ردشده‌ها را بیاورید</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band" id="mechanisms" aria-labelledby="mech-h">
+      <p class="band__code">تجزیه</p>
+      <div class="band__body">
+        <h2 id="mech-h">ده سازوکار</h2>
+        <p>یک طرح تقریباً هیچ‌وقت یک قرینهٔ طبیعی ندارد. برای گردش اطلاعات قرینهٔ قوی دارد،
+          برای شیوهٔ تصمیم‌گیری قرینهٔ ضعیف، و برای بازنشسته‌کردن بخش‌های کهنه هیچ. یک قیاس
+          کلی این‌ها را روی هم میانگین می‌گیرد و درست همان سازوکاری را پنهان می‌کند که خواهد
+          شکست. نبودِ یک سازوکار خودش یافته است، نه کمبود جست‌وجو.</p>
+        <ul class="mechs">
+          <li><span class="num">۱</span><h3>جریان منابع</h3><p>انرژی، پول، آدم‌ها و مواد چطور جابه‌جا می‌شوند؟</p></li>
+          <li><span class="num">۲</span><h3>جریان اطلاعات</h3><p>سامانه چطور می‌فهمد چه اتفاقی دارد می‌افتد؟</p></li>
+          <li><span class="num">۳</span><h3>تصمیم‌گیری</h3><p>چه کسی تصمیم می‌گیرد و با کدام اطلاعات؟</p></li>
+          <li><span class="num">۴</span><h3>هماهنگی</h3><p>بخش‌های جدا چطور با هم کار می‌کنند؟</p></li>
+          <li><span class="num">۵</span><h3>سازگاری</h3><p>وقتی واقعیت عوض می‌شود، طرح چطور عوض می‌شود؟</p></li>
+          <li><span class="num">۶</span><h3>رشد</h3><p>چطور بزرگ می‌شود بی‌آنکه فرو بریزد؟</p></li>
+          <li><span class="num">۷</span><h3>ترمیم</h3><p>چطور از آسیب بهبود می‌یابد؟</p></li>
+          <li><span class="num">۸</span><h3>گزینش</h3><p>ایده‌های بد چطور کنار گذاشته و خوب‌ها چطور نگه داشته می‌شوند؟</p></li>
+          <li><span class="num">۹</span><h3>مرزها</h3><p>چه چیزی چیزهای زیان‌بار را بیرون نگه می‌دارد؟</p></li>
+          <li><span class="num">۱۰</span><h3>نوسازی</h3><p>بخش‌های کهنه چطور جایگزین می‌شوند؟</p></li>
+        </ul>
+        <p class="note" style="margin-block-start:1.2rem">فاصلهٔ میان حس‌کردن و عمل‌کردن
+          پیش‌بینی‌کننده‌ترین سنجهٔ این چارچوب است و صریح ثبت می‌شود.</p>
+      </div>
+    </section>
+
+    <section class="band" id="levels" aria-labelledby="levels-h">
+      <p class="band__code">جست‌وجو</p>
+      <div class="band__body">
+        <h2 id="levels-h">هفت سطح طبیعت</h2>
+        <p>به‌موازات گشته می‌شوند تا پاسخ به «حیوانات» فرو نکاهد، که رایج‌ترین شکست این روش
+          است. کتابخانهٔ قرینه‌ها حدود سی‌وپنج مدخل دارد، پخش‌شده میان همین هفت سطح.</p>
+        <ul class="ladder">
+          <li>
+            <span class="lvl-name">سامانه‌های فیزیکی</span>
+            <span class="lvl-scale"><bdi dir="ltr">۱۰⁻⁹</bdi> تا <bdi dir="ltr">۱۰⁶</bdi> متر</span>
+            <p class="lvl-note">گرادیان‌ها، رشد بلور، شبکه‌های آبراهه، گذار به آشفتگی.
+              کمترین جا را برای قصه‌گویی می‌گذارند، پس جست‌وجو از اینجا شروع می‌شود.</p>
+          </li>
+          <li>
+            <span class="lvl-name">سلول‌ها</span>
+            <span class="lvl-scale"><bdi dir="ltr">۱۰⁻⁶</bdi> تا <bdi dir="ltr">۱۰⁻⁴</bdi> متر</span>
+            <p class="lvl-note">غشاهای گزینشی، حافظهٔ ایمنی، مرگ برنامه‌ریزی‌شده، بازخوانی و
+              ترمیم DNA، یک واحد مشترک انرژی.</p>
+          </li>
+          <li>
+            <span class="lvl-name">جانداران</span>
+            <span class="lvl-scale"><bdi dir="ltr">۱۰⁻³</bdi> تا <bdi dir="ltr">۱۰¹</bdi> متر</span>
+            <p class="lvl-note">قوس بازتابی در کنار یکپارچگی مرکزی، هومئوستاز، ترمیم زخم،
+              بازسازی استخوان زیر بار.</p>
+          </li>
+          <li>
+            <span class="lvl-name">گونه‌های اجتماعی</span>
+            <span class="lvl-scale"><bdi dir="ltr">۱۰⁰</bdi> تا <bdi dir="ltr">۱۰³</bdi> متر</span>
+            <p class="lvl-note">تصمیم با حد نصاب، ردهای فرومونی، تقسیم کار بر پایهٔ آستانهٔ
+              پاسخ، تهویهٔ تپهٔ موریانه.</p>
+          </li>
+          <li>
+            <span class="lvl-name">بوم‌سازگان‌ها</span>
+            <span class="lvl-scale"><bdi dir="ltr">۱۰³</bdi> تا <bdi dir="ltr">۱۰⁷</bdi> متر</span>
+            <p class="lvl-note">توالی بوم‌شناختی، اثر گونهٔ کلیدی، طیف هم‌زیستی تا انگلی،
+              تنوع پاسخ.</p>
+          </li>
+          <li>
+            <span class="lvl-name">فرگشت</span>
+            <span class="lvl-scale"><bdi dir="ltr">۱۰⁶</bdi> تا <bdi dir="ltr">۱۰⁹</bdi> سال</span>
+            <p class="lvl-note">تنوع و گزینش، تکثیر ژن و واگرایی، پویایی ملکهٔ سرخ،
+              پیمانه‌ای بودن به‌عنوان شرط تغییر.</p>
+          </li>
+          <li>
+            <span class="lvl-name">سامانه‌های کیهانی</span>
+            <span class="lvl-scale"><bdi dir="ltr">۱۰⁹</bdi> تا <bdi dir="ltr">۱۰²⁶</bdi> متر</span>
+            <p class="lvl-note">برافزایش، تعادل هیدرواستاتیک، ستاره‌زایی خودمحدود، تشدید
+              مداری.</p>
+          </li>
+        </ul>
+        <p class="note" style="margin-block-start:1.2rem">شش تای این‌ها طول‌اند. یکی مدت
+          است، و به همین دلیل روی محور خودش گشته می‌شود: سازوکاری که بازدهش در ده نسل
+          به‌دست می‌آید، در دسترس طرحی که دو فصل وقت دارد نیست.</p>
+      </div>
+    </section>
+
+    <section class="band" id="validity" aria-labelledby="validity-h">
+      <p class="band__code">آزمون</p>
+      <div class="band__body">
+        <h2 id="validity-h">چهار آزمون اعتبار</h2>
+        <p>هر نامزد هر چهار را می‌گذراند. یک شکست برای رد شدنش کافی است.</p>
+        <ol class="tests">
+          <li>
+            <h3><span class="num">۱</span> همان مسئله</h3>
+            <p>کارکرد را مقایسه کنید. نه حوزه را، نه شکل را، نه واژگان را.</p>
+            <span class="fails">رد خودکار: به هر دو می‌گویند شبکه</span>
+          </li>
+          <li>
+            <h3><span class="num">۲</span> قیدهای مشابه</h3>
+            <p>کمیابی، عدم قطعیت، تأخیر، رقابت، شکست؛ یکی‌یکی. آنکه معمولاً جا می‌ماند این
+              است که هزینهٔ شکست را چه کسی می‌پردازد.</p>
+            <span class="fails">رد خودکار: کار می‌کند چون واحدهای شکست‌خورده می‌میرند</span>
+          </li>
+          <li>
+            <h3><span class="num">۳</span> سازوکار قابل‌اجرا</h3>
+            <p>سازوکار طبیعی را گام‌به‌گام بنویسید، بعد بنویسید طرح برای اجرای آن چه باید
+              بکند. بیشتر نامزدها همین‌جا می‌میرند.</p>
+            <span class="fails">رد خودکار: به خویشاوندی ژنتیکی نیاز دارد</span>
+          </li>
+          <li>
+            <h3><span class="num">۴</span> مقیاس مربوط</h3>
+            <p>اندازه، سرعت و بازهٔ زمانی. هر سه باید بخوانند.</p>
+            <span class="fails">رد خودکار: مقیاس کلنی <bdi dir="ltr">۱۰⁴</bdi> تا <bdi dir="ltr">۱۰⁶</bdi> است و طرح دوازده نفر دارد</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="band" id="score" aria-labelledby="score-h">
+      <p class="band__code">امتیاز</p>
+      <div class="band__body">
+        <h2 id="score-h">دوازده اصل دوام</h2>
+        <p>هرکدام برابر لنگرهای نوشته‌شده امتیاز می‌گیرند، تا عدد در اجرای دوم همان معنایی
+          را بدهد که در اجرای اول داشت.</p>
+        <ul class="principles">
+          <li><span class="num">۱</span><span class="p-name">بازخورد</span><p class="p-test">آیا سامانه نتیجهٔ کارهایش را می‌بیند؟</p></li>
+          <li><span class="num">۲</span><span class="p-name">سازگاری</span><p class="p-test">آیا بدون طراحی دوباره می‌تواند تغییر کند؟</p></li>
+          <li><span class="num">۳</span><span class="p-name">افزونگی</span><p class="p-test">آیا یک جزء می‌تواند از کار بیفتد بی‌آنکه همه‌چیز را با خود ببرد؟</p></li>
+          <li><span class="num">۴</span><span class="p-name">تنوع</span><p class="p-test">آیا چند راه برای حل یک مسئله وجود دارد؟</p></li>
+          <li><span class="num">۵</span><span class="p-name">پیمانه‌ای بودن</span><p class="p-test">آیا یک بخش می‌تواند عوض شود بی‌آنکه کل را بی‌ثبات کند؟</p></li>
+          <li><span class="num">۶</span><span class="p-name">خودگردانی محلی</span><p class="p-test">آیا بخش‌های محلی بدون منتظرماندن برای اجازه واکنش نشان می‌دهند؟</p></li>
+          <li><span class="num">۷</span><span class="p-name">هماهنگی</span><p class="p-test">آیا کارهای محلی همچنان به سامانهٔ بزرگ‌تر کمک می‌کنند؟</p></li>
+          <li><span class="num">۸</span><span class="p-name">محدودیت منابع</span><p class="p-test">آیا طرح می‌پذیرد که پول، انرژی و توجه محدودند؟</p></li>
+          <li><span class="num">۹</span><span class="p-name">ترمیم</span><p class="p-test">آیا بخش‌های آسیب‌دیده بازیابی یا جایگزین می‌شوند؟</p></li>
+          <li><span class="num">۱۰</span><span class="p-name">گزینش</span><p class="p-test">آیا می‌شود ایدهٔ شکست‌خورده را متوقف کرد؟</p></li>
+          <li><span class="num">۱۱</span><span class="p-name">نوسازی</span><p class="p-test">آیا ساختارهای کهنه بی‌خطر بازنشسته می‌شوند؟</p></li>
+          <li><span class="num">۱۲</span><span class="p-name">تناسب با محیط</span><p class="p-test">آیا طرح به شرایطی که در آن کار می‌کند می‌خورد؟</p></li>
+        </ul>
+
+        <div class="callout">
+          <p><strong>۰</strong> نبود · <strong>۱</strong> تا حدی · <strong>۲</strong> آشکارا.
+            بیشینه ۲۴.</p>
+          <p><strong>۲</strong> سازوکاری مشخص در متن طرح می‌خواهد: چه کسی، با چه ماشه‌ای، چه
+            کاری. <strong>۱</strong> نیتی اعلام‌شده بدون سازوکار می‌خواهد. سکوت
+            <strong>۰</strong> است، نه ۱. هر امتیاز به بند، سازوکار یا رویداد پیشینی که آن
+            را می‌سازد ارجاع می‌دهد، چون امتیاز بدون ارجاع نظری است که لباس عدد پوشیده.</p>
+          <p>امتیاز پایین شکست را ثابت نمی‌کند. نشان می‌دهد طرح از کجا شکننده است.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="band" id="verdict" aria-labelledby="verdict-h">
+      <p class="band__code">رده‌بندی</p>
+      <div class="band__body">
+        <h2 id="verdict-h">چهار حکم، و پنج چیزی که امتیاز را کنار می‌زنند</h2>
+        <ul class="classes">
+          <li>
+            <h3>الگوی طبیعی تثبیت‌شده</h3>
+            <span class="band-score">۱۹ تا ۲۴</span>
+            <p>برای سازوکار غالب طرح قرینه‌ای نزدیک هست، زیر قیدهای مشابه، از راهی که طرح
+              واقعاً می‌تواند اجرا کند. یک قرینهٔ پذیرفته‌شده با اطمینان بالا یا متوسط لازم
+              است، نه فقط جمع بالا.</p>
+          </li>
+          <li>
+            <h3>الگوی طبیعی جزئی</h3>
+            <span class="band-score">۶ تا ۱۸</span>
+            <p>بعضی سازوکارها قرینهٔ قوی دارند و بعضی هیچ. رایج‌ترین نتیجه. ارزشش فهرست
+              سازوکارهای بی‌پشتوانه است، نه عددی که بالای گزارش می‌نشیند.</p>
+          </li>
+          <li>
+            <h3>نو اما سازگار</h3>
+            <span class="band-score">بدون بازه، بر پایهٔ اصول سنجیده می‌شود</span>
+            <p>قرینهٔ نزدیکی پیدا نشد، اما طرح از اصولی پیروی می‌کند که دوام می‌آورند.
+              نتیجهٔ کم‌ارزشی نیست. برای اینکه با «خوب نگشتیم» اشتباه نشود، جست‌وجوی صادقانه
+              در دست‌کم پنج سطح لازم است و گزارش پوشش باید نشانش بدهد.</p>
+          </li>
+          <li>
+            <h3>مغایر با الگوهای طبیعی</h3>
+            <span class="band-score">۰ تا ۵، یا هر یک از نقض‌های زیر</span>
+            <p>طرح به چیزی وابسته است که طبیعت نگهش نمی‌دارد. این حکم سخت‌ترین چالش و
+              صریح‌ترین زبان را می‌گیرد.</p>
+          </li>
+        </ul>
+
+        <h3 style="margin-block-start:2rem">پنج وابستگی که امتیاز را کنار می‌زنند</h3>
+        <p>هر یک از این‌ها طرح را، با هر جمعی، <em>مغایر</em> می‌کند و گزارش می‌گوید کدام‌یک
+          فعال شده است. دوازده قرائت سخاوتمندانه نباید یک وابستگی ساختاری را از میدان به در
+          کند.</p>
+        <ul class="overrides">
+          <li><dfn>کنترل دائمی</dfn><span>کارکرد به یک مرجع مرکزی نیاز دارد که همیشه در دسترس باشد، بدون حالت تقلیل‌یافتهٔ تعریف‌شده برای وقتی که نیست.</span></li>
+          <li><dfn>رشد بی‌حد</dfn><span>رشد روی منبعی برنامه‌ریزی شده که حدی برایش گفته نشده، یا قید تنگنا با تقاضا رشد نمی‌کند.</span></li>
+          <li><dfn>پیش‌بینی بی‌خطا</dfn><span>درستی طرح به درست‌بودن یک پیش‌بینی بند است، بی‌آنکه مسیری برای بازنگری هنگام خطا باشد.</span></li>
+          <li><dfn>تحمل‌نکردن هیچ خرابی</dfn><span>هیچ چیز اجازهٔ خراب‌شدن ندارد. نه تحلیل خرابی هست، نه کار در حالت تقلیل‌یافته.</span></li>
+          <li><dfn>نبودِ سازگاری</dfn><span>هیچ مسیری برای بازنگری وجود ندارد.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="band" id="commands" aria-labelledby="cmd-h">
+      <p class="band__code">دستورها</p>
+      <div class="band__body">
+        <h2 id="cmd-h">پنج دستور</h2>
+        <ul class="cmds">
+          <li>
+            <code>/npt:test</code>
+            <p>ارزیابی کامل هشت‌گامی: سازوکارها، جست‌وجوی قرینه، ممیزی خصمانه، امتیاز، حکم.
+              پیش از تعهد به یک طرح اجرایش کنید.</p>
+          </li>
+          <li>
+            <code>/npt:worksheet</code>
+            <p>یک صفحه، یک گذر، بدون زیرعامل. برای خواندن سریع، یا برای تصمیم‌گیری دربارهٔ
+              اینکه آزمون کامل ارزش وقتش را دارد یا نه.</p>
+          </li>
+          <li>
+            <code>/npt:score</code>
+            <p>فقط کارنامهٔ دوازده اصل، بدون جست‌وجوی قرینه. برای مقایسهٔ دو طرح، یا بازبینی
+              یک طرح پس از تغییر.</p>
+          </li>
+          <li>
+            <code>/npt:challenge</code>
+            <p>خصمانه. از این فرض شروع می‌کند که طرح <em>مغایر</em> است و می‌کوشد ثابتش کند.
+              وقتی طرحی خیلی راحت تصویب شده به کارش ببرید.</p>
+          </li>
+          <li>
+            <code>/npt:analogues</code>
+            <p>فقط جست‌وجو، در هر هفت سطح، برای یک مسئله زیر قیدهای مشخص.</p>
+          </li>
+        </ul>
+        <p class="note" style="margin-block-start:1.2rem">هرکدام یک مسیر فایل یا یک توضیح
+          می‌گیرند، وگرنه به همان طرحی برمی‌گردند که دربارهٔ آن حرف می‌زنید. مهارت خودش هم
+          وقتی قیاسی با طبیعت در گفت‌وگو پیدا شود فعال می‌شود.</p>
+      </div>
+    </section>
+
+    <section class="band" id="install" aria-labelledby="install-h">
+      <p class="band__code">نصب</p>
+      <div class="band__body">
+        <h2 id="install-h">نصب</h2>
+        <p>دو خط در Claude Code.</p>
+<pre><code>/plugin marketplace add cocodedk/natural-parallel-test
+/plugin install npt@natural-parallel-test</code></pre>
+        <p>دوباره اجرا کنید یا <code>/reload-plugins</code> را بزنید تا دستورها بیایند.
+          Claude Code نسخهٔ ۲٫۱ به بالا لازم است. افزونه حدود ۵۳۰ توکن به هر نشست اضافه
+          می‌کند؛ بقیه فقط هنگام فراخوانی بار می‌شود.</p>
+      </div>
+    </section>
+
+    <section class="band limits" id="limits" aria-labelledby="limits-h">
+      <p class="band__code">دامنه</p>
+      <div class="band__body">
+        <h2 id="limits-h">این چه چیزی نیست</h2>
+        <p><strong>دوام ساختاری زیر عدم قطعیت</strong> را می‌سنجد. دربارهٔ اینکه طرح ارزش
+          انجام دادن دارد یا نه، از پس هزینه‌اش برمی‌آیید یا نه، قانونی است، اخلاقی است یا
+          اصلاً خواسته می‌شود، چیزی نمی‌گوید. پرسشی دربارهٔ هزینه یا نیاز کاربر جلویش
+          بگذارید و پاسخی با اعتمادبه‌نفس به پرسشی می‌دهد که نپرسیده‌اید.</p>
+        <p>و <strong>طبیعی به معنای خوب نیست</strong>. طبیعت انگل، سرطان، انقراض‌های گسترده
+          و دوره‌های طولانی ناکارآمدی بی‌رحمانه را نگه می‌دارد. این چارچوب طبیعت را شاهدی
+          دربارهٔ آنچه زیر قید دوام می‌آورد می‌گیرد، نه دلیلی بر اینکه چیزی مطلوب است. طرحی
+          که برای دفاع از خودش می‌گوید طبیعی است، همین را به‌عنوان نقصی در استدلالش ثبت‌شده
+          می‌بیند.</p>
+      </div>
+    </section>
+
+  </div>
+</main>
+
+<footer><p>Apache-2.0 &nbsp;|&nbsp; © ۱۴۰۵ <a href="https://cocode.dk" target="_blank" rel="noreferrer">Cocode</a> &nbsp;|&nbsp; ساخته شده توسط <a href="https://linkedin.com/in/babakbandpey" target="_blank" rel="noreferrer">بابک بندپی</a></p></footer>
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!doctype html>
+<!-- Open Graph card source. Render at exactly 1200x630:
+     google-chrome-stable --headless --disable-gpu --no-sandbox \
+       --window-size=1200,630 --screenshot=og.png "file:///abs/path/og-image.html" -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Natural Parallel Test: Open Graph card</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=IBM+Plex+Mono:wght@400;600&family=Spectral:ital,wght@0,300;0,400;0,600;1,300&display=swap">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+
+  body {
+    background: #dedcd4;
+    color: #16181a;
+    font-family: "Spectral", Georgia, serif;
+    position: relative;
+  }
+
+  body::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(to bottom,
+      rgba(22,24,26,.03) 0 1px, transparent 1px 6px);
+  }
+
+  .card {
+    position: relative;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 372px;
+    column-gap: 56px;
+    padding: 58px 64px 52px;
+  }
+
+  .eyebrow {
+    font-family: "Archivo", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .22em;
+    text-transform: uppercase;
+    color: #5b3a8e;
+  }
+
+  h1 {
+    font-weight: 300;
+    font-size: 92px;
+    line-height: .98;
+    letter-spacing: -.022em;
+    margin: 26px 0 30px;
+  }
+
+  .rule {
+    border-left: 4px solid #5b3a8e;
+    padding-left: 22px;
+    font-size: 27px;
+    line-height: 1.38;
+    font-weight: 300;
+    max-width: 640px;
+  }
+  .rule em { font-style: italic; }
+  .rule strong { font-weight: 600; }
+
+  .foot {
+    align-self: end;
+    display: flex;
+    align-items: baseline;
+    gap: 22px;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 17px;
+    color: #55585b;
+    border-top: 1px solid #b5b2a8;
+    padding-top: 18px;
+    margin-top: 34px;
+  }
+  .foot b { color: #16181a; font-weight: 600; }
+
+  .col-left { display: flex; flex-direction: column; }
+
+  .slip {
+    align-self: center;
+    background: #efeee9;
+    border: 1px solid #b5b2a8;
+    padding: 30px 30px 34px;
+    transform: rotate(1.2deg);
+  }
+  .slip .det {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #55585b;
+    border-bottom: 1px dotted #b5b2a8;
+    padding-bottom: 14px;
+    margin-bottom: 20px;
+  }
+  .slip .name {
+    font-size: 40px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.14;
+    margin-bottom: 22px;
+  }
+  .stamp {
+    display: inline-block;
+    border: 3px solid #5b3a8e;
+    color: #5b3a8e;
+    font-family: "Archivo", Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: .26em;
+    text-transform: uppercase;
+    padding: 7px 14px 7px 20px;
+    transform: rotate(-4deg);
+    margin-bottom: 22px;
+  }
+  .slip .why { font-size: 19px; line-height: 1.44; color: #16181a; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="col-left">
+      <p class="eyebrow">Claude Code plugin</p>
+      <h1>The Natural<br>Parallel Test</h1>
+      <p class="rule">Not whether the plan <em>looks like</em> something in nature. Whether
+        nature has solved the <strong>same problem under comparable constraints</strong>, and
+        what let that solution endure.</p>
+      <div class="foot">
+        <span><b>cocodedk.github.io/natural-parallel-test</b></span>
+        <span>Babak Bandpey</span>
+      </div>
+    </div>
+
+    <div class="slip">
+      <p class="det">Determination · analogy-auditor</p>
+      <p class="name">The alpha wolf</p>
+      <p class="stamp">Refuted</p>
+      <p class="why">Captive, unrelated wolves. Wild packs are families, and the researcher
+        who popularised the word spent years trying to take it back.</p>
+    </div>
+  </div>
+</body>
+</html>
