@@ -28,21 +28,45 @@ It also tells you which analogies **failed**, and why. That list is the point.
 
 ## Installation
 
+In a Claude Code session:
+
 ```
 /plugin marketplace add cocodedk/natural-parallel-test
 /plugin install npt@natural-parallel-test
 ```
 
-That's it. Restart or `/reload-plugins` and the commands are available.
+Restart or `/reload-plugins` and the commands are available.
 
-<details>
-<summary>From the command line instead</summary>
+**If either step errors, you almost certainly already have it.** A marketplace name can only
+be registered once, so adding it a second time — or adding it when you already have this repo
+registered from a local directory — is rejected rather than merged. Update instead of adding:
+
+```
+/plugin marketplace update natural-parallel-test
+/plugin update npt@natural-parallel-test
+```
+
+Note the `plugin@marketplace` form on the update — the bare name is rejected with
+"Plugin not found".
+
+The command-line equivalents are more forgiving: they report "already installed" and exit
+cleanly rather than failing, so prefer them if you are scripting or unsure of current state.
 
 ```bash
 claude plugin marketplace add cocodedk/natural-parallel-test
 claude plugin install npt@natural-parallel-test
+
+# already have it?
+claude plugin marketplace update natural-parallel-test
+claude plugin update npt@natural-parallel-test
 ```
-</details>
+
+Editing plugin files without raising `version` in `plugin.json` leaves existing installs on
+the old cached copy — the cache is keyed by version. Bump the version for anything you want
+existing users to receive.
+
+The CLI clones over **SSH** (`git@github.com:…`), so it needs a working GitHub SSH key. If
+the clone fails with a permission error, that is why.
 
 <details>
 <summary>From a local clone (for development)</summary>
