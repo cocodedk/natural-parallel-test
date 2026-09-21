@@ -27,4 +27,4 @@ Install with `/plugin marketplace add cocodedk/natural-parallel-test` then `/plu
 
 - [README](https://github.com/cocodedk/natural-parallel-test/blob/main/README.md): installation, commands, and an overview
 - [CONTRIBUTING](https://github.com/cocodedk/natural-parallel-test/blob/main/CONTRIBUTING.md): the editorial rules new library entries must satisfy
-- [Website](https://cocodedk.github.io/natural-parallel-test/): English and Persian
+- [Website](https://natural-parallel.cocode.dk/): English and Persian
