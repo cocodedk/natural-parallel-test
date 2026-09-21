@@ -3,23 +3,23 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-    <loc>https://cocodedk.github.io/natural-parallel-test/</loc>
+    <loc>https://natural-parallel.cocode.dk/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cocodedk.github.io/natural-parallel-test/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://cocodedk.github.io/natural-parallel-test/fa/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cocodedk.github.io/natural-parallel-test/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://natural-parallel.cocode.dk/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://natural-parallel.cocode.dk/fa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://natural-parallel.cocode.dk/"/>
   </url>
 
   <url>
-    <loc>https://cocodedk.github.io/natural-parallel-test/fa/</loc>
+    <loc>https://natural-parallel.cocode.dk/fa/</loc>
     <lastmod>2026-07-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
-    <xhtml:link rel="alternate" hreflang="en" href="https://cocodedk.github.io/natural-parallel-test/"/>
-    <xhtml:link rel="alternate" hreflang="fa" href="https://cocodedk.github.io/natural-parallel-test/fa/"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://cocodedk.github.io/natural-parallel-test/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://natural-parallel.cocode.dk/"/>
+    <xhtml:link rel="alternate" hreflang="fa" href="https://natural-parallel.cocode.dk/fa/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://natural-parallel.cocode.dk/"/>
   </url>
 
 </urlset>

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cocodedk.github.io/natural-parallel-test/sitemap.xml
+Sitemap: https://natural-parallel.cocode.dk/sitemap.xml

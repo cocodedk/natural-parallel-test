@@ -21,8 +21,8 @@ It also tells you which analogies **failed**, and why. That list is the point.
 
 ## Website
 
-- [English](https://cocodedk.github.io/natural-parallel-test/)
-- [فارسی (Persian)](https://cocodedk.github.io/natural-parallel-test/fa/)
+- [English](https://natural-parallel.cocode.dk/)
+- [فارسی (Persian)](https://natural-parallel.cocode.dk/fa/)
 
 ---
 
