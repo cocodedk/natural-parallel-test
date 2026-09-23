@@ -60,6 +60,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&amp;family=IBM+Plex+Mono:wght@400;600&amp;family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&amp;display=swap">
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="https://brand.cocode.dk/v1.css">
+<script type="module" src="https://brand.cocode.dk/v1.js"></script>
 
 <script type="application/ld+json">
 {
@@ -95,36 +97,13 @@
 
 <a class="skip" href="#main">Skip to content</a>
 
-<header class="site-head">
-  <div class="wrap">
-    <a class="brand" href="#top">
-      <svg width="24" height="24" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
-        <defs><clipPath id="bm"><rect width="32" height="32" rx="4.5"/></clipPath></defs>
-        <g clip-path="url(#bm)">
-          <rect width="32" height="32" fill="#16181a"/>
-          <rect x="6" y="3" width="20" height="26" fill="#e3e1d9"/>
-          <rect x="9" y="7" width="14" height="2.4" fill="#16181a"/>
-          <rect x="9" y="12" width="9" height="2.4" fill="#16181a" opacity=".45"/>
-          <rect x="9" y="17" width="12" height="2.4" fill="#16181a" opacity=".45"/>
-          <rect x="-4" y="18.5" width="40" height="5.6" fill="#5b3a8e" transform="rotate(-22 16 16)"/>
-        </g>
-      </svg>
-      Natural Parallel Test
-    </a>
-
-    <a href="fa/" class="lang-switch" lang="fa" dir="rtl" hreflang="fa">فارسی</a>
-
-    <nav class="nav" aria-label="Sections of this page">
-      <ul>
-        <li><a href="#method">Method</a></li>
-        <li><a href="#levels">Search</a></li>
-        <li><a href="#score">Score</a></li>
-        <li><a href="#commands">Commands</a></li>
-        <li><a href="#install">Install</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
+<!-- The cocode.dk family frame. Without JavaScript its children show instead: a way home
+     and the language link. -->
+<cocode-head project="Natural Parallel Test" accent="#5b3a8e" on-accent="#efeee9">
+  <a href="https://cocode.dk">cocode.dk</a>
+  <span class="on">EN</span>
+  <a href="fa/" hreflang="fa">FA</a>
+</cocode-head>
 
 <main id="main">
   <div class="wrap">
@@ -478,7 +457,11 @@
   </div>
 </main>
 
-<footer><p>Apache-2.0 &nbsp;|&nbsp; © 2026 <a href="https://cocode.dk" target="_blank" rel="noreferrer">Cocode</a> &nbsp;|&nbsp; Created by <a href="https://linkedin.com/in/babakbandpey" target="_blank" rel="noreferrer">Babak Bandpey</a></p></footer>
+<footer><p>Apache-2.0</p></footer>
+
+<cocode-foot repo="cocodedk/natural-parallel-test">
+  <a href="https://cocode.dk">cocode.dk</a>
+</cocode-foot>
 
 </body>
 </html>
