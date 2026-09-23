@@ -87,6 +87,9 @@ em { font-style: italic; }
   padding-inline: 1.25rem;
 }
 
+/* The cocode.dk frame lines up with this column; keep the gutters in step. */
+cocode-head, cocode-foot { --cocode-max: 74rem; --cocode-gutter: 1.25rem; }
+
 .skip {
   position: absolute;
   inset-inline-start: -9999px;
@@ -122,81 +125,6 @@ em { font-style: italic; }
   font-size: 0.9em;
   font-variant-numeric: tabular-nums;
 }
-
-/* --- header ------------------------------------------------------------- */
-
-.site-head {
-  border-block-end: 1px solid var(--rule);
-  background: var(--sheet);
-}
-
-.site-head .wrap {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 0.5rem 1rem;
-  padding-block: 0.75rem;
-}
-
-.brand {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.6rem;
-  min-block-size: 44px;
-  color: var(--ink);
-  text-decoration: none;
-  font-family: var(--font-ui);
-  font-weight: 700;
-  font-size: var(--step--1);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  margin-inline-end: auto;
-}
-.brand svg { flex: none; }
-.brand:hover { color: var(--stamp); }
-
-.lang-switch {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-block-size: 44px;
-  min-inline-size: 44px;
-  padding-inline: 0.9rem;
-  border: 1px solid var(--rule);
-  color: var(--ink);
-  text-decoration: none;
-  font-family: var(--font-ui);
-  font-size: var(--step--1);
-  font-weight: 600;
-  background: var(--slip);
-}
-.lang-switch:hover { border-color: var(--stamp); color: var(--stamp); }
-
-.nav {
-  inline-size: 100%;
-  order: 3;
-  border-block-start: 1px solid var(--rule);
-  padding-block-start: 0.35rem;
-}
-.nav ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 1.15rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.nav a {
-  display: inline-flex;
-  align-items: center;
-  min-block-size: 44px;
-  font-family: var(--font-ui);
-  font-size: var(--step--1);
-  font-weight: 500;
-  color: var(--graphite);
-  text-decoration: none;
-}
-.nav a:hover { color: var(--stamp); }
 
 /* --- hero --------------------------------------------------------------- */
 
@@ -588,6 +516,7 @@ footer a:hover { color: var(--stamp); }
     --band-pad: 3.25rem;
   }
   .wrap { padding-inline: 2rem; }
+  cocode-head, cocode-foot { --cocode-gutter: 2rem; }
   footer { padding-inline: 2rem; }
   .slips { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .slips li:first-child { grid-column: 1 / -1; }
@@ -602,9 +531,6 @@ footer a:hover { color: var(--stamp); }
     --step-4: 3.5rem;
     --band-pad: 4rem;
   }
-  .site-head .wrap { padding-block: 0.5rem; }
-  .nav { inline-size: auto; order: 0; border-block-start: 0; padding-block-start: 0; }
-  .nav ul { gap: 0 1.4rem; }
   .band {
     display: grid;
     grid-template-columns: 7rem minmax(0, 1fr);
@@ -636,6 +562,7 @@ footer a:hover { color: var(--stamp); }
     --step-1: 1.25rem;
   }
   .wrap { padding-inline: 3rem; }
+  cocode-head, cocode-foot { --cocode-gutter: 3rem; }
   footer { padding-inline: 3rem; }
   .band { grid-template-columns: 9rem minmax(0, 1fr); column-gap: 3.5rem; }
   .hero .lede { font-size: 1.375rem; }
@@ -663,8 +590,7 @@ footer a:hover { color: var(--stamp); }
 [dir="rtl"] .slip__det,
 [dir="rtl"] .slip__mark,
 [dir="rtl"] .overrides dfn,
-[dir="rtl"] .btn,
-[dir="rtl"] .brand {
+[dir="rtl"] .btn {
   letter-spacing: 0;
   text-transform: none;
 }
@@ -677,7 +603,6 @@ footer a:hover { color: var(--stamp); }
 [dir="rtl"] .classes .band-score { font-family: var(--font-body); }
 [dir="rtl"] .slip__det { font-family: var(--font-body); }
 [dir="rtl"] .tests .fails { font-family: var(--font-body); }
-[dir="rtl"] .brand { font-size: var(--step-0); }
 
 @media (min-width: 640px) {
   [dir="rtl"] { --step-3: 1.75rem; --step-4: 2.4rem; }
